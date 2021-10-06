@@ -133,3 +133,32 @@ input, select {
   margin: 0 10px;
   text-decoration: none;
 }
+
+
+/*
+メイン
+*/
+
+.mainimage img {
+  height: 600px;
+  width: 100%;
+  max-width: 1280px;
+  margin-bottom: 80px;
+}
+
+.About {
+
+}
+
+.about_title {
+  display: inline-block;
+  text-align:center;
+  margin-bottom: 60px;
+  border-bottom: solid 1px #383e45;
+
+}
+
+.about_text img {
+  height: 100px;
+  width: 100px;
+}
