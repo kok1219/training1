@@ -104,7 +104,7 @@ input, select {
 リセット
 */
 .header {
-  background-color: skyblue;
+
 }
 .header-inner {
   position: relative;
@@ -139,26 +139,89 @@ input, select {
 メイン
 */
 
-.mainimage img {
-  height: 600px;
-  width: 100%;
-  max-width: 1280px;
+.mainimage {
   margin-bottom: 80px;
 }
 
-.About {
+.mainimage img {
+  height: 600px;
+  width: 100%;
+}
 
+.contents {
+  text-align: center;
+}
+
+.About {
+  margin-bottom: 100px;
 }
 
 .about_title {
   display: inline-block;
-  text-align:center;
+  font-size: 2rem;
   margin-bottom: 60px;
   border-bottom: solid 1px #383e45;
+}
 
+.about_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about_text img {
   height: 100px;
   width: 100px;
+  margin-right: 30px;
+  border-radius: 100px;
+}
+.text h3 {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.text p {
+  line-height: 20px;
+  font-size: 0.9rem;
+}
+
+.Bicycle {
+  margin-bottom: 100px;
+}
+
+.bicycle_title {
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 60px;
+  border-bottom: solid 1px #383e45;
+}
+
+.bicycle {
+  display: flex;
+  justify-content: center;
+
+}
+
+.bicycle h3 {
+  margin: 20px 0;
+}
+
+.bicycle p {
+  font-size: 0.9rem;
+}
+
+.bicycle2 {
+  margin: 0 20px;
+
+}
+
+.bicycle img {
+  width: 275px;
+  height: 180px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.5rem;
+  padding: 10px 0;
 }
